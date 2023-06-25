@@ -1,0 +1,1189 @@
+body{
+    background: #323538;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro' sans-serif;
+}
+
+
+
+.container-main{
+    width: 1500px;
+    margin: auto;
+    overflow: hidden;
+}
+.header{
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+    margin-top: 15px;
+
+}
+.logo-header{
+    width: 339px;
+    height: 95px;
+}
+.input-header{
+    width: 561px;
+    height: 48px;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #000;
+    border: none;
+    border-radius: 15px;
+    background-image: url(../img/search_strong_icon.svg) ;
+    background-position: 28px 7px;
+    background-repeat: no-repeat;
+    padding-left: 91px;  
+    margin-left: 88px;
+}
+.support-link{
+    margin-right: 40px;
+}
+.header-buttons{
+    margin-left: 100px;
+}
+
+
+
+.nav-container{
+    min-width: 100vh;
+    background-size: cover;
+    height: 68px;
+    background-color: #000;
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+    margin-left: 95px;
+    
+}
+.nav-button{
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    color: #fff;
+    background-color: #000;
+    width: 250px;
+    height: 68px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav-button:hover{
+    background-color: #FFCD34;
+    color: #000;
+    transition: .5s ease;
+
+}
+
+
+.nav-content{
+    background-color: #FFCD34;
+    width: 350px;
+    padding-top: 10px;
+    position: absolute;
+    display: none;
+    z-index: 1;
+    height: auto;
+    box-sizing: border-box;
+   
+}
+.nav-item:hover .nav-content{
+    display: block;
+    transition: all 1s ease;
+}
+
+.nav-item:hover .nav-button{
+   background-color: #FFCD34;
+   color: #000;
+}
+
+
+
+.nav-link{
+    text-decoration: none;
+    display: block;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    color: #000;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+
+}
+.nav-link:hover{
+    background-color: #000;
+    color: #fff;
+    transition: .5s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+.main{
+    overflow: hidden;
+    width: 1500px;
+}
+.promo{
+    background-image: url(img/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 884px;
+    border-bottom: 5px solid #FFCD34;
+    background-size: cover;
+}
+.promo-container{
+    width: 791px;
+    margin-left: 345px;
+    padding-top: 107px;
+}
+.promo-text{
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 60px;
+    color: #fff;
+    width: 462px;
+    height: 92px;
+    padding-bottom: 46px;
+}
+.promo-text1{
+    width: 416px;
+    background-color: #000;
+    padding: 5px;
+    margin: 0;
+}
+.promo-text2{
+    width: 675px;
+    background-color: #000;
+    padding: 5px;
+    margin: 0;
+}
+.promo-input{
+    width: 791px;
+    height: 94px;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    background-image: url(img/promo-search.svg);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: 13px;
+    padding-left: 80px;
+    border: none;
+    margin-top: 123px;
+}
+.promo-button{
+    width: 519px;
+    height: 94px;
+    padding: 0;
+    text-align: center;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+    background-color: #FFCD34;
+    border: none;
+    cursor: pointer;
+    margin-top: 179px;
+}
+
+
+.promo2{
+    width: 834px;
+    margin-top: 95px;
+    margin-bottom: 102px;
+    margin-left: 345px;
+
+}
+.promo2-title{
+    margin-left: 66px;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 31px;
+    color: #FFFFFF;
+
+}
+.promo2-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.promo2-item{
+    width: 250px;
+    height: 168px;
+    border-radius: 15px;
+    background-color: #000;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.promo2-text{
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    margin-top: 14px;
+    text-align: center;
+    padding: 0  64px 0 64px ;
+}
+.promo2-img{
+    margin-left: 100px;
+    margin-top: 35px;
+}
+.item6{
+    background-color: #FFCD34;
+}
+.item6-t{
+    color: #000;
+}
+.promo2-item:hover{
+    transition: .5s ease;
+    transform: scale(1.05);
+}
+.promo2-link{
+    text-decoration: none;
+    color: 0;
+}
+.promo2-button{
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    background: #FFCD34;
+    color: #000000;
+    width: 831px;
+    height: 86px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+
+
+
+.promo3{
+    margin-top: 104px;
+    margin-bottom: 74px;
+}
+.promo3-items{
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    width: 831px;
+    justify-content: space-between;
+}
+.promo3-item{
+    width: 403px;
+    height: 489px;
+    background-color: #000;
+    border-radius: 15px;
+}
+.promo3-item:hover{
+    transform: scale(1.04);
+    transition: all .5s ease;
+}
+.promo3-item:hover .promo3-item-title {
+    color: #FFCD34;
+    transition: all .5s ease;
+}
+.promo3-img{
+    width: 403px;
+    height: 253px;
+    border: none;
+    border-radius: 15px;
+
+}
+.promo3-item-text, .promo3-item-title{
+    width: 312px;
+    margin-left: 38px;
+    margin-top: 35px;
+    margin-bottom: 43px;
+}
+.promo3-item-title{
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.promo3-item-text{
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.promo3-link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.promo3-button{
+    width: 900px;
+    height: 115px;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+}
+.button-news{
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    background: #FFCD34;
+    color: #000000;
+    width: 831px;
+    height: 86px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 45px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.footer-container{
+    padding-top: 162px;
+    background-image: url(img/bg-footer.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.footer{
+    justify-content: center;
+    align-items: center;
+}
+.footer-container1{
+    display: flex;
+    align-items: start;
+    margin-left: 70px;
+}
+.footer-list{
+    width: 280px;
+    white-space: pre-line;
+    margin-right: 70px;
+}
+.footer-text, .footer-title{
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+}
+.footer-text{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.footer-title{
+    margin-bottom: 28px;
+}
+.footer-text:hover{
+    color:#FFCD34;
+}
+
+
+.footer-block{
+    display: flex;
+    align-items: end;
+    padding-left: 30px;
+    padding-bottom: 60px;
+    padding-top: 80px;
+}
+.footer-logo{
+    background-image: url(img/footer-logo.svg);
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 95px;
+    margin-right: 50px;
+}
+.footer-number-text{
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 15px;
+    color: #fff;
+}
+.footer-number-text1{
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFCD34;
+}
+.social-links{
+    display: flex;
+    align-items: start;
+    margin-left: 100px;
+}
+.social-link{
+    width: 23px;
+    height: 23px;
+    justify-content: center;
+    margin-top: 7px;
+    margin-left: 6px;
+}
+.social-l:not(last-child){
+    margin-right: 20px;
+}
+.message{
+    display: flex;
+    align-items: center;
+}
+.social-l{
+    width: 36px;
+    height: 36px;
+    display: block;
+    background-color: #323538;
+}
+.footer-adress-text{
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 15px;
+    color: #fff;
+}
+.brand{
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 15px;
+    color: #fff;
+    margin-left: 84px;
+}
+.brands{
+    display: flex;
+    align-items: end;
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+.main-swiper{
+    width: 814px;
+    margin-left: 313px;
+    margin-top: 60px;
+}
+.swiper-title{
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 38px;
+    margin: 0;
+    margin-bottom: 38px;
+    margin-left: 65px;
+    color: #fff;
+}
+swiper-container {
+    width: 813px;
+    height:100%;
+    border-radius: 15px;
+    
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  .mySwiper2 {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+
+  .mySwiper2 swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+  }
+
+  .mySwiper2 .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+
+
+
+
+  .bus-info{
+    width: 814px;
+    margin-left: 313px;
+    border-radius: 15px;
+    background-color: #000;
+    border: #FFCD34 5px solid;
+    margin-top: 56px;
+    margin-bottom: 60px;
+
+  }
+  .bus-info-name{
+    margin-bottom: 50px;
+    margin-left: 60px;
+    margin-top: 71px;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 38px;
+
+    color: #FFFFFF;
+
+  }
+  .bus-info-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+  }
+  .bus-info-content{
+    white-space: pre-line;
+    width: 300px;
+    margin-right: 42px;
+    margin-bottom: 70px;
+  }
+  .bus-info-title{
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    display: block;
+    color: #FFCD34;
+    padding: 0;
+  }
+  .bus-info-text{
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 0;
+    color: #fff;
+  }
+  .bcg22{
+    background: url(img2/bcg22.svg) ;
+    background-size: cover;
+    width: 1500px;
+    background-position: 0 300px;
+    background-repeat: no-repeat;
+  }
+  .button-home-bus-info{
+    width: 814px;
+    height: 103px;
+    background-color: #FFCD34;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+    margin-left: 313px;
+    margin-bottom: 60px;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+.buttons-rl{
+    display: flex;
+    align-items: center;
+}
+.button-reg, .button-log{
+    width: 387px;
+    height: 85px;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius:15px ;
+}
+.button-log{
+    color: #000;
+    background-color: #FFCD34;
+}
+.button-reg{
+    color: #fff;
+    background-color: #000;
+    margin-right: 77px;
+}
+.log-block , .reg-block{
+    width: 677px;
+    margin-top: 145px;
+    margin-left: 88px;
+}
+.log-title, .reg-title{
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.login-inputs , .reg-inputs{
+    width: 677px;
+}
+.input-log, .input-reg{
+    width: 100%;
+    box-sizing: border-box;
+    height: 103px;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 45px;
+    padding-left: 29px;
+}
+.button-log-block , .button-reg-block{
+    width: 677px;
+    height: 103px;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 40px;
+    color: #000;
+    background-color: #FFCD34;
+}
+.forgotpsrd , .haccnt{
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    margin-top: 74px;
+}
+.pdata{
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-align: left;
+    display: block;
+    text-decoration: none;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+.pdata:hover{
+    color: #FFCD34;
+}
+.login , .reg{
+    margin-left: 300px;
+    margin-bottom: 188px;
+    margin-top: 69px;
+}
+
+.button-log2{
+    color: #fff;
+    background-color: #000;
+}
+.button-reg2{
+    color: #000;
+    background-color: #FFCD34;
+    margin-right: 77px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1200px){
+    .header{
+        margin-left: 25px;
+        margin-bottom: 10px;
+    }
+    .logo-header {
+        width: 280px;
+        height: 80px;
+    }
+    .input-header{
+        margin-left: 60px;
+        width: 400px;
+    }
+    .nav{
+        margin-left: 20px;
+    }
+    .nav-content{
+        width: 220px;
+    }
+    .nav-button{
+        width: 220px;
+        font-style: 14px;
+    }
+    .nav-link{
+        font-style: 14px;
+    }
+    .promo-container{
+        margin-left: 120px;
+        padding-top: 100px;
+    }
+    .promo2{
+        margin-left: 175px;
+    }
+    .promo2-button{
+        font-size: 25px;
+    }
+    .button-news{
+        font-size: 25px;
+    }
+    .footer-container1{
+        margin-left: 40px;
+    }
+    .footer-text, .footer-title{
+        font-size: 12px;
+    }
+    .footer-title{
+        margin-bottom: 15px;
+    }
+    .footer-text{
+        margin-bottom: 0;
+    }
+    .footer-list{
+        margin-right: 50px;
+        width: 250px;
+    }
+    .footer-logo{
+        display: none;
+    }
+    .social-links{
+        margin-left: 100px;
+    }
+    .brands{
+        margin-left: 80px;
+    }
+    .footer-block{
+        padding-left: 80px;
+    }
+    .container-main{
+        width: 1200px;
+        margin: auto;
+        overflow: hidden;
+    }
+    .main-swiper, .bus-info , .button-home-bus-info{
+        margin-left: 200px;
+    }
+    .login, .reg{
+        margin-left: 200px;
+    }
+    .button-log, .button-reg{
+        width: 360px;
+        height: 80px;
+        font-size: 24px;
+    }
+    .log-title , .reg-title{
+        font-size: 40px;
+    }
+    .log-block, .reg-block{
+        margin-top: 100px;
+        width: 650px;
+    }
+    .input-log, .input-reg {
+        width: 650px;
+        height: 90px;
+        font-size: 24px;
+        line-height: 30px;
+        margin-top: 40px;
+    }
+    .button-reg-block, .button-log-block{
+        width: 650px;
+        font-size: 24px;
+    }  
+    .forgotpsrd, .haccnt{
+        font-size: 16px;
+        margin-top: 40px;
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 992px){
+    .logo-header {
+        width: 250px;
+        height: 70px;
+    }
+    .input-header {
+        margin-left: 40px;
+        width: 300px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 20px;
+        background-size: 30px;
+        background-position: 20px 7px;
+        padding-left: 69px;
+    }
+    .img-support, .account-header{
+        width: 35px;
+        height: 35px;
+    } 
+    .header-buttons{
+        margin-left: 90px;
+    }
+    .nav-button{
+        width: 185px;
+        font-size: 12px;
+    }
+    .nav-link{
+        font-size: 12px;
+    }
+    .nav-link{
+        padding: 15px 10px;
+    }
+    .promo{
+        background-position: right 200px top 0;
+    }
+    .promo-text{
+        font-size: 38px;
+    }
+    .promo-text1{
+        width: 300px;
+    }
+    .promo-text2{
+        width: 530px;
+    }
+    .promo-input{
+        width: 600px;
+        background-size: 40px 40px;
+    }
+    .promo-container{
+        padding-top: 150px;
+    }
+    .promo2 {
+        margin-left: 75px;
+    }
+    .promo2-button {
+        font-size: 22px;
+    }
+    .button-news {
+        font-size: 22px;
+    }
+    .footer-list {
+        margin-right: 40px;
+        width: 200px;
+    }
+    .footer-block {
+        padding-left: 50px;
+    }
+    .social-links {
+        margin-left: 80px;
+    }
+    .brands {
+        margin-left: 40px;
+    }
+    .brand{
+        margin-left: 60px;
+    }
+    .container-main{
+        width: 992px;
+        margin: auto;
+        overflow: hidden;
+    }
+    .main-swiper, .bus-info , .button-home-bus-info{
+        margin-left: 100px;
+    }
+    .bus-info-text, .bis-info-title{
+        font-size: 18px;
+    }
+    .button-home-bus-info{
+        font-size: 22px;
+    }
+    .button-log, .button-reg {
+        width: 300px;
+        height: 70px;
+        font-size: 20px;
+    }
+    .log-title, .reg-title {
+        font-size: 30px;
+    }
+    .input-log, .input-reg {
+        width: 550px;
+        height: 75px;
+        font-size: 22px;
+        line-height: 28px;
+        margin-top: 40px;
+    }
+    .log-block, .reg-block {
+        width: 550px;
+        margin-top: 50px;
+    }
+    .button-reg-block, .button-log-block {
+        width: 550px;
+        font-size: 20px;
+        height: 75px;
+    }
+    .login, .reg {
+        margin-left: 150px;
+    }
+    .pdata{
+        font-size: 13px;
+        line-height: 18px;
+    }
+}
+@media only screen and (max-width:768px){
+    .promo-button{
+        font-size: 30px;
+    }
+    .logo-header {
+        width: 200px;
+        height: 60px;
+    }
+    .input-header {
+        margin-left: 20px;
+    }
+    .header-buttons {
+        margin-left: 35px;
+    }
+    .support-link {
+        margin-right: 20px;
+    }
+    .img-support, .account-header {
+        width: 25px;
+        height: 25px;
+    }
+    .nav {
+        margin-left: 10px;
+    }
+    .nav-button {
+        width: 150px;
+        font-size: 12px;
+    }
+    .nav-content {
+        width: 150px;
+    }
+    .promo-input {
+        width: 500px;
+        background-size: 40px 40px;
+        height: 80px;
+    }
+    .promo {
+        background-position: right 290px top 0;
+    }
+    .promo2 {
+        margin-left: 100px;
+        width: 560px;
+        
+    }
+    .promo2-items {
+        justify-content: space-around;
+    }
+    .promo2-button {
+        font-size: 18px;
+    }
+    .promo3-items {
+        width: 600px;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+    .promo3{
+        box-sizing: border-box;
+    }
+    .promo3-item{
+        margin-bottom: 30px;
+    }
+    .button-news {
+        font-size: 16px;
+        width: 560px;
+    }
+    .footer-container1 {
+        margin-left: 120px;
+        flex-wrap: wrap;
+        width: 600px;
+    }
+    .footer-list {
+        margin-right: 120px;
+        width: 180px;
+        margin-bottom: 30px;
+    }
+    .social-links {
+        margin-left: 40px;
+    }
+    .brands {
+        margin-left: 20px;
+    }
+    .footer-adress-text {
+        font-size: 8px;
+    }
+    .brand{
+        font-size: 8px;
+    }
+    .footer-block{
+        align-items: center;
+    }
+    .container-main{
+        width: 768px;
+        margin: auto;
+        overflow: hidden;
+    }
+    .swiper-title{
+        font-size: 24px;
+    }
+    swiper-container{
+        width: 650px;
+        margin-left: 60px;
+    }
+    .main-swiper{
+        margin-left: 0;
+    }
+    .bus-info{
+        width: 650px;
+    }
+    .bus-info{
+        margin-left: 55px;
+    }
+    .bus-info-name{
+        font-size: 24px;
+    }
+    .bus-info-text, .bus-info-title{
+        font-size: 16px;
+    }
+    .bus-info-content{
+        width: 250px;
+    }
+    .button-home-bus-info {
+        font-size: 18px;
+    }
+    .button-home-bus-info{
+        width: 650px;
+        height: 80px;
+        margin-left: 60px;
+    }
+    .button-log, .button-reg {
+        width: 250px;
+        height: 65px;
+        font-size: 18px;
+    }
+    .button-reg{
+        margin-right: 20px;
+    }
+    .log-title, .reg-title {
+        font-size: 24px;
+    }
+    .input-log, .input-reg {
+        width: 500px;
+        height: 70px;
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 40px;
+    }
+    .input-log:not(:first-child){
+        margin-top: 40px;
+    }
+    .button-log-block, .button-reg-block{
+        width: 500px;
+        font-size: 18px;
+        height: 68px;
+    }
+    .forgotpsrd, .haccnt {
+        font-size: 14px;
+        margin-top: 25px;
+    }
+    .log-block, .reg-block{
+        width: 500px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .login, .reg {
+        margin-left: 125px;
+        margin-top: 20px;
+    }
+    .pdata{
+    font-size: 12px;
+    line-height: 14px;
+    }
+    .ir1{
+        margin-top: 0;
+    }
+ 
+}
